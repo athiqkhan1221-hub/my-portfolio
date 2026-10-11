@@ -169,7 +169,7 @@ export default function Contact() {
                     <span className="font-heading font-medium">GitHub</span>
                   </div>
                   <span className="font-mono text-xs text-[#6E756E] group-hover:text-[#A5ACA5]">
-                    github.com/athiqkhan
+                    github.com/athiqkhan1221-hub
                   </span>
                 </a>
 

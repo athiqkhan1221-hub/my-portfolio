@@ -18,7 +18,7 @@ export default function Hero() {
   const [copied, setCopied] = useState(false);
 
   const copySnippet = () => {
-    navigator.clipboard.writeText("git clone https://github.com/athiqkhan/portfolio.git");
+    navigator.clipboard.writeText("git clone https://github.com/athiqkhan1221-hub/portfolio.git");
     setCopied(true);
     setTimeout(() => setCopied(false), 2000);
   };

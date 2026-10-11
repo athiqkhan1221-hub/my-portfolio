@@ -16,7 +16,7 @@ export const contactDetails = {
   phone: "+91 9043395299",
   whatsappNumber: "919043395299",
   whatsapp: "https://wa.me/919043395299",
-  github: "https://github.com/athiqkhan",
+  github: "https://github.com/athiqkhan1221-hub",
   linkedin: "https://www.linkedin.com/in/athiq-khan-2aa177433",
   instagram: "https://www.instagram.com/athiqqqq",
   resumePath: "/resume.pdf",
