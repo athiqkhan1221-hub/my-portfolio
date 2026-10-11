@@ -1,0 +1,65 @@
+<svg width="800" height="480" viewBox="0 0 800 480" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="480" fill="#111311"/>
+  <rect x="24" y="24" width="752" height="432" rx="12" fill="#1B1E1B" stroke="#303530" stroke-width="1.5"/>
+  <!-- App Header -->
+  <rect x="24" y="24" width="752" height="48" rx="12" fill="#202420"/>
+  <circle cx="56" cy="48" r="6" fill="#3A403A"/>
+  <circle cx="76" cy="48" r="6" fill="#3A403A"/>
+  <circle cx="96" cy="48" r="6" fill="#3A403A"/>
+  <!-- Search Bar Simulation -->
+  <rect x="136" y="36" width="360" height="26" rx="6" fill="#111311" stroke="#303530"/>
+  <text x="156" y="53" fill="#6E756E" font-family="'Inter', sans-serif" font-size="12">Search courses by keyword, topic, or tech...</text>
+  <rect x="650" y="38" width="100" height="22" rx="4" fill="#111311" stroke="#303530"/>
+  <text x="668" y="53" fill="#70E2F9" font-family="'JetBrains Mono', monospace" font-size="11">REACT 19</text>
+
+  <!-- Filter Pills -->
+  <g transform="translate(56, 96)">
+    <rect x="0" y="0" width="70" height="26" rx="13" fill="#70E2F9"/>
+    <text x="16" y="17" fill="#111311" font-family="'Inter', sans-serif" font-size="11" font-weight="600">All (24)</text>
+
+    <rect x="80" y="0" width="110" height="26" rx="13" fill="#202420" stroke="#303530"/>
+    <text x="96" y="17" fill="#F4F3ED" font-family="'Inter', sans-serif" font-size="11">AI &amp; ML (8)</text>
+
+    <rect x="200" y="0" width="124" height="26" rx="13" fill="#202420" stroke="#303530"/>
+    <text x="216" y="17" fill="#F4F3ED" font-family="'Inter', sans-serif" font-size="11">Full-Stack (11)</text>
+
+    <rect x="334" y="0" width="96" height="26" rx="13" fill="#202420" stroke="#303530"/>
+    <text x="350" y="17" fill="#F4F3ED" font-family="'Inter', sans-serif" font-size="11">Python (5)</text>
+  </g>
+
+  <!-- Course Cards Grid -->
+  <g transform="translate(56, 144)">
+    <!-- Card 1 -->
+    <rect x="0" y="0" width="216" height="240" rx="8" fill="#202420" stroke="#303530"/>
+    <rect x="0" y="0" width="216" height="88" rx="8" fill="#111311"/>
+    <text x="16" y="48" fill="#70E2F9" font-family="'JetBrains Mono', monospace" font-size="11">01 / ML FOUNDATIONS</text>
+    <text x="16" y="112" fill="#F4F3ED" font-family="'Manrope', sans-serif" font-size="13" font-weight="600">Practical Python for AI</text>
+    <text x="16" y="134" fill="#A5ACA5" font-family="'Inter', sans-serif" font-size="11">Algorithms, data structures &amp; tensors</text>
+    <rect x="16" y="180" width="60" height="18" rx="3" fill="#1B1E1B"/>
+    <text x="22" y="193" fill="#70E2F9" font-family="'JetBrains Mono', monospace" font-size="9">PYTHON</text>
+    <rect x="16" y="206" width="80" height="20" rx="4" fill="#70E2F9"/>
+    <text x="25" y="220" fill="#111311" font-family="'Inter', sans-serif" font-size="10" font-weight="600">Enroll Course</text>
+
+    <!-- Card 2 -->
+    <rect x="236" y="0" width="216" height="240" rx="8" fill="#202420" stroke="#303530"/>
+    <rect x="236" y="0" width="216" height="88" rx="8" fill="#111311"/>
+    <text x="252" y="48" fill="#C2F970" font-family="'JetBrains Mono', monospace" font-size="11">02 / WEB DEV</text>
+    <text x="252" y="112" fill="#F4F3ED" font-family="'Manrope', sans-serif" font-size="13" font-weight="600">Modern React Architecture</text>
+    <text x="252" y="134" fill="#A5ACA5" font-family="'Inter', sans-serif" font-size="11">Components, state and hooks</text>
+    <rect x="252" y="180" width="60" height="18" rx="3" fill="#1B1E1B"/>
+    <text x="258" y="193" fill="#C2F970" font-family="'JetBrains Mono', monospace" font-size="9">REACT</text>
+    <rect x="252" y="206" width="80" height="20" rx="4" fill="#303530"/>
+    <text x="262" y="220" fill="#F4F3ED" font-family="'Inter', sans-serif" font-size="10">Saved ★</text>
+
+    <!-- Card 3 -->
+    <rect x="472" y="0" width="216" height="240" rx="8" fill="#202420" stroke="#303530"/>
+    <rect x="472" y="0" width="216" height="88" rx="8" fill="#111311"/>
+    <text x="488" y="48" fill="#F9B870" font-family="'JetBrains Mono', monospace" font-size="11">03 / FULL-STACK</text>
+    <text x="488" y="112" fill="#F4F3ED" font-family="'Manrope', sans-serif" font-size="13" font-weight="600">API Design &amp; Data Flow</text>
+    <text x="488" y="134" fill="#A5ACA5" font-family="'Inter', sans-serif" font-size="11">Building reliable endpoints</text>
+    <rect x="488" y="180" width="60" height="18" rx="3" fill="#1B1E1B"/>
+    <text x="496" y="193" fill="#F9B870" font-family="'JetBrains Mono', monospace" font-size="9">APIS</text>
+    <rect x="488" y="206" width="80" height="20" rx="4" fill="#70E2F9"/>
+    <text x="498" y="220" fill="#111311" font-family="'Inter', sans-serif" font-size="10" font-weight="600">Enroll Course</text>
+  </g>
+</svg>

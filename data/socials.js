@@ -1,0 +1,29 @@
+/**
+ * Social links and contact details for Athiq Khan.
+ * Update placeholders with your active handles and links.
+ */
+export const contactDetails = {
+  name: "M. Athiq Khan",
+  displayName: "Athiq Khan",
+  title: "AIML Engineering Student & Full-Stack Developer",
+  tagline: "I turn ideas into digital experiences.",
+  location: "Chennai, India",
+  college: "Dhaanish Ahmed Chennai College of Engineering",
+  degree: "B.E. in Artificial Intelligence and Machine Learning",
+  status: "Open to Internships & Freelance",
+  statusActive: true, // Set to false to hide availability badge
+  email: "athiqkhan.dev@gmail.com", // [EDITABLE PLACEHOLDER: Update with your active email]
+  github: "https://github.com/athiqkhan", // [EDITABLE PLACEHOLDER: Update with your GitHub profile]
+  linkedin: "https://linkedin.com/in/athiqkhan", // [EDITABLE PLACEHOLDER: Update with your LinkedIn profile]
+  instagram: "https://instagram.com/athiqkhan", // [EDITABLE PLACEHOLDER: Update with your Instagram profile]
+  resumePath: "/resume.pdf", // Place your resume in public/resume.pdf
+};
+
+export const navLinks = [
+  { name: "Work", href: "#work" },
+  { name: "About", href: "#about" },
+  { name: "Skills", href: "#skills" },
+  { name: "Playground", href: "#playground" },
+  { name: "Journey", href: "#journey" },
+  { name: "Contact", href: "#contact" },
+];

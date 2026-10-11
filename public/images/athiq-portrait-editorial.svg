@@ -1,0 +1,34 @@
+<svg width="600" height="720" viewBox="0 0 600 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="600" height="720" fill="#1B1E1B"/>
+  <rect x="20" y="20" width="560" height="680" rx="16" fill="#111311" stroke="#303530" stroke-width="2"/>
+  
+  <!-- Subtle decorative technical grid pattern -->
+  <defs>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#202420" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect x="22" y="22" width="556" height="676" rx="14" fill="url(#grid)" opacity="0.6"/>
+
+  <!-- Editorial Monogram Centerpiece -->
+  <circle cx="300" cy="300" r="160" fill="#1B1E1B" stroke="#303530" stroke-width="2"/>
+  <circle cx="300" cy="300" r="152" fill="none" stroke="#C2F970" stroke-width="1" stroke-dasharray="6 6" opacity="0.4"/>
+  
+  <!-- "AK." Large Monogram -->
+  <text x="300" y="340" fill="#F4F3ED" font-family="'Manrope', sans-serif" font-size="120" font-weight="800" text-anchor="middle" letter-spacing="-4">
+    AK<tspan fill="#C2F970">.</tspan>
+  </text>
+
+  <!-- Typography Labels -->
+  <g transform="translate(60, 520)">
+    <rect x="0" y="0" width="480" height="1" fill="#303530"/>
+    
+    <text x="0" y="36" fill="#C2F970" font-family="'JetBrains Mono', monospace" font-size="11" letter-spacing="2">ENGINEERING × AI × CREATIVITY</text>
+    <text x="0" y="68" fill="#F4F3ED" font-family="'Manrope', sans-serif" font-size="24" font-weight="700">M. Athiq Khan</text>
+    <text x="0" y="96" fill="#A5ACA5" font-family="'Inter', sans-serif" font-size="13">B.E. Artificial Intelligence &amp; Machine Learning</text>
+    <text x="0" y="118" fill="#6E756E" font-family="'Inter', sans-serif" font-size="12">Dhaanish Ahmed Chennai College of Engineering · Chennai, India</text>
+    
+    <rect x="0" y="140" width="168" height="24" rx="4" fill="#202420" stroke="#303530"/>
+    <text x="12" y="156" fill="#C2F970" font-family="'JetBrains Mono', monospace" font-size="10">PORTRAIT PLACEHOLDER</text>
+  </g>
+</svg>

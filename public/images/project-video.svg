@@ -1,0 +1,49 @@
+<svg width="800" height="480" viewBox="0 0 800 480" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="480" fill="#111311"/>
+  <rect x="24" y="24" width="752" height="432" rx="12" fill="#1B1E1B" stroke="#303530" stroke-width="1.5"/>
+  <!-- Video Editor Top Bar -->
+  <rect x="24" y="24" width="752" height="44" rx="12" fill="#202420"/>
+  <circle cx="56" cy="46" r="6" fill="#3A403A"/>
+  <circle cx="76" cy="46" r="6" fill="#3A403A"/>
+  <circle cx="96" cy="46" r="6" fill="#3A403A"/>
+  <text x="128" y="50" fill="#A5ACA5" font-family="'JetBrains Mono', monospace" font-size="12">AI_Video_Pipeline / Sequence_01.edit</text>
+  <rect x="670" y="38" width="80" height="18" rx="9" fill="#111311" stroke="#303530"/>
+  <text x="686" y="51" fill="#F9B870" font-family="'JetBrains Mono', monospace" font-size="10">4K DCI</text>
+
+  <!-- Viewport Monitors -->
+  <g transform="translate(56, 84)">
+    <!-- 16:9 Cinema Monitor -->
+    <rect x="0" y="0" width="410" height="230" rx="8" fill="#111311" stroke="#303530"/>
+    <rect x="20" y="20" width="370" height="190" rx="4" fill="#1B1E1B" stroke="#F9B870" stroke-width="1" stroke-dasharray="4 4"/>
+    <text x="32" y="44" fill="#F9B870" font-family="'JetBrains Mono', monospace" font-size="10">REC ● [16:9 CINEMATIC]</text>
+    <path d="M 60 160 Q 150 90 240 140 T 360 100" stroke="#F9B870" stroke-width="2" fill="none"/>
+    <circle cx="240" cy="140" r="4" fill="#C2F970"/>
+    <text x="250" y="144" fill="#C2F970" font-family="'JetBrains Mono', monospace" font-size="9">FOCAL TRACK POINT</text>
+    <text x="32" y="196" fill="#6E756E" font-family="'JetBrains Mono', monospace" font-size="10">prompt: "dusk planetary haze, 35mm anamorphic"</text>
+
+    <!-- 9:16 Vertical Monitor -->
+    <rect x="430" y="0" width="258" height="230" rx="8" fill="#111311" stroke="#303530"/>
+    <rect x="480" y="15" width="158" height="200" rx="4" fill="#1B1E1B" stroke="#70E2F9" stroke-width="1"/>
+    <text x="494" y="38" fill="#70E2F9" font-family="'JetBrains Mono', monospace" font-size="9">9:16 REEL</text>
+    <circle cx="559" cy="115" r="32" fill="#202420" stroke="#70E2F9" stroke-width="1.5"/>
+    <text x="536" y="119" fill="#F4F3ED" font-family="'JetBrains Mono', monospace" font-size="10">PRODUCT</text>
+    <text x="492" y="198" fill="#6E756E" font-family="'JetBrains Mono', monospace" font-size="9">Rotational spin 360°</text>
+  </g>
+
+  <!-- Timeline Tracks at Bottom -->
+  <g transform="translate(56, 330)">
+    <rect x="0" y="0" width="688" height="96" rx="8" fill="#111311" stroke="#303530"/>
+    <text x="16" y="24" fill="#A5ACA5" font-family="'JetBrains Mono', monospace" font-size="10">V1 (AI DIFFUSION)</text>
+    <rect x="130" y="12" width="180" height="16" rx="3" fill="#F9B870" opacity="0.85"/>
+    <rect x="320" y="12" width="220" height="16" rx="3" fill="#70E2F9" opacity="0.85"/>
+    <rect x="550" y="12" width="120" height="16" rx="3" fill="#C2F970" opacity="0.85"/>
+
+    <text x="16" y="52" fill="#A5ACA5" font-family="'JetBrains Mono', monospace" font-size="10">V2 (TITLES &amp; FX)</text>
+    <rect x="220" y="40" width="120" height="16" rx="3" fill="#303530"/>
+    <rect x="420" y="40" width="140" height="16" rx="3" fill="#303530"/>
+
+    <text x="16" y="80" fill="#A5ACA5" font-family="'JetBrains Mono', monospace" font-size="10">A1 (AUDIO BEATS)</text>
+    <!-- Waveform line -->
+    <path d="M 130 76 L 150 70 L 170 82 L 190 68 L 220 84 L 260 66 L 310 84 L 380 66 L 440 84 L 520 66 L 600 84 L 660 72" stroke="#C2F970" stroke-width="1.5" fill="none"/>
+  </g>
+</svg>

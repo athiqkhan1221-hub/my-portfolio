@@ -1,0 +1,71 @@
+<svg width="800" height="480" viewBox="0 0 800 480" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="480" fill="#111311"/>
+  <rect x="24" y="24" width="752" height="432" rx="12" fill="#1B1E1B" stroke="#303530" stroke-width="1.5"/>
+  <!-- Window Bar -->
+  <rect x="24" y="24" width="752" height="44" rx="12" fill="#202420"/>
+  <circle cx="56" cy="46" r="6" fill="#3A403A"/>
+  <circle cx="76" cy="46" r="6" fill="#3A403A"/>
+  <circle cx="96" cy="46" r="6" fill="#3A403A"/>
+  <text x="128" y="50" fill="#A5ACA5" font-family="'JetBrains Mono', monospace" font-size="12">screentime_analytics // dashboard.overview</text>
+  <rect x="656" y="38" width="96" height="18" rx="9" fill="#111311" stroke="#303530"/>
+  <text x="670" y="51" fill="#F9709E" font-family="'JetBrains Mono', monospace" font-size="10">CONCEPT UI</text>
+
+  <!-- Metric Badges Row -->
+  <g transform="translate(56, 88)">
+    <rect x="0" y="0" width="216" height="80" rx="8" fill="#111311" stroke="#303530"/>
+    <text x="16" y="26" fill="#A5ACA5" font-family="'JetBrains Mono', monospace" font-size="10">DEEP FOCUS TODAY</text>
+    <text x="16" y="58" fill="#C2F970" font-family="'Manrope', sans-serif" font-size="24" font-weight="700">4h 18m</text>
+    <text x="120" y="56" fill="#A5ACA5" font-family="'Inter', sans-serif" font-size="11">+32% goal</text>
+
+    <rect x="236" y="0" width="216" height="80" rx="8" fill="#111311" stroke="#303530"/>
+    <text x="252" y="26" fill="#A5ACA5" font-family="'JetBrains Mono', monospace" font-size="10">PASSIVE USAGE</text>
+    <text x="252" y="58" fill="#F9709E" font-family="'Manrope', sans-serif" font-size="24" font-weight="700">1h 05m</text>
+    <text x="350" y="56" fill="#A5ACA5" font-family="'Inter', sans-serif" font-size="11">-18% avg</text>
+
+    <rect x="472" y="0" width="216" height="80" rx="8" fill="#111311" stroke="#303530"/>
+    <text x="488" y="26" fill="#A5ACA5" font-family="'JetBrains Mono', monospace" font-size="10">DAILY INTENT SCORE</text>
+    <text x="488" y="58" fill="#70E2F9" font-family="'Manrope', sans-serif" font-size="24" font-weight="700">92 / 100</text>
+  </g>
+
+  <!-- Main Chart Section -->
+  <g transform="translate(56, 188)">
+    <rect x="0" y="0" width="688" height="236" rx="8" fill="#111311" stroke="#303530"/>
+    <text x="20" y="32" fill="#F4F3ED" font-family="'Manrope', sans-serif" font-size="13" font-weight="600">Hourly Attention Distribution</text>
+    <text x="20" y="50" fill="#6E756E" font-family="'Inter', sans-serif" font-size="11">Visualizing code editor vs browser vs distractions</text>
+
+    <!-- Chart Bars (Morning to Evening) -->
+    <!-- Gridlines -->
+    <line x1="20" y1="90" x2="668" y2="90" stroke="#202420" stroke-width="1"/>
+    <line x1="20" y1="140" x2="668" y2="140" stroke="#202420" stroke-width="1"/>
+    <line x1="20" y1="190" x2="668" y2="190" stroke="#202420" stroke-width="1"/>
+
+    <!-- Bar sets: 9am, 11am, 1pm, 3pm, 5pm, 7pm, 9pm -->
+    <!-- 9am -->
+    <rect x="60" y="110" width="24" height="80" rx="3" fill="#C2F970"/>
+    <text x="60" y="208" fill="#6E756E" font-family="'JetBrains Mono', monospace" font-size="10">09:00</text>
+
+    <!-- 11am -->
+    <rect x="150" y="80" width="24" height="110" rx="3" fill="#C2F970"/>
+    <text x="150" y="208" fill="#6E756E" font-family="'JetBrains Mono', monospace" font-size="10">11:00</text>
+
+    <!-- 1pm -->
+    <rect x="240" y="150" width="24" height="40" rx="3" fill="#F9709E"/>
+    <text x="240" y="208" fill="#6E756E" font-family="'JetBrains Mono', monospace" font-size="10">13:00</text>
+
+    <!-- 3pm -->
+    <rect x="330" y="90" width="24" height="100" rx="3" fill="#C2F970"/>
+    <text x="330" y="208" fill="#6E756E" font-family="'JetBrains Mono', monospace" font-size="10">15:00</text>
+
+    <!-- 5pm -->
+    <rect x="420" y="70" width="24" height="120" rx="3" fill="#70E2F9"/>
+    <text x="420" y="208" fill="#6E756E" font-family="'JetBrains Mono', monospace" font-size="10">17:00</text>
+
+    <!-- 7pm -->
+    <rect x="510" y="130" width="24" height="60" rx="3" fill="#C2F970"/>
+    <text x="510" y="208" fill="#6E756E" font-family="'JetBrains Mono', monospace" font-size="10">19:00</text>
+
+    <!-- 9pm -->
+    <rect x="600" y="160" width="24" height="30" rx="3" fill="#303530"/>
+    <text x="600" y="208" fill="#6E756E" font-family="'JetBrains Mono', monospace" font-size="10">21:00</text>
+  </g>
+</svg>

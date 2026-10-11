@@ -1,0 +1,26 @@
+<svg width="640" height="360" viewBox="0 0 640 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="640" height="360" fill="#111311"/>
+  <rect x="12" y="12" width="616" height="336" rx="8" fill="#1B1E1B" stroke="#303530"/>
+  <!-- Audio & Cut Beats -->
+  <text x="36" y="52" fill="#F9B870" font-family="'JetBrains Mono', monospace" font-size="10">PRECISION BEAT-SYNC // 8-FRAME CUT SEQUENCE</text>
+  <rect x="36" y="80" width="568" height="90" rx="6" fill="#111311" stroke="#303530"/>
+  <!-- Waveform spikes -->
+  <path d="M 50 125 L 80 95 L 110 155 L 140 100 L 170 150 L 200 90 L 230 160 L 260 95 L 290 155 L 320 85 L 350 165 L 380 90 L 410 160 L 440 95 L 470 155 L 500 90 L 530 160 L 560 100 L 590 125" stroke="#F9B870" stroke-width="2" fill="none"/>
+  <!-- Cut Markers -->
+  <line x1="200" y1="70" x2="200" y2="180" stroke="#C2F970" stroke-width="1.5"/>
+  <text x="180" y="66" fill="#C2F970" font-family="'JetBrains Mono', monospace" font-size="9">CUT 01</text>
+  <line x1="320" y1="70" x2="320" y2="180" stroke="#C2F970" stroke-width="1.5"/>
+  <text x="300" y="66" fill="#C2F970" font-family="'JetBrains Mono', monospace" font-size="9">DROP</text>
+  <line x1="440" y1="70" x2="440" y2="180" stroke="#C2F970" stroke-width="1.5"/>
+  <text x="420" y="66" fill="#C2F970" font-family="'JetBrains Mono', monospace" font-size="9">CUT 02</text>
+  <!-- Video Blocks -->
+  <g transform="translate(36, 195)">
+    <rect x="0" y="0" width="160" height="40" rx="4" fill="#202420" stroke="#303530"/>
+    <text x="16" y="24" fill="#F4F3ED" font-family="'Inter', sans-serif" font-size="10">Clip A · Wide Establisher</text>
+    <rect x="168" y="0" width="116" height="40" rx="4" fill="#C2F970"/>
+    <text x="180" y="24" fill="#111311" font-family="'Inter', sans-serif" font-size="10" font-weight="600">Clip B · Speed Ramp</text>
+    <rect x="292" y="0" width="276" height="40" rx="4" fill="#202420" stroke="#303530"/>
+    <text x="308" y="24" fill="#F4F3ED" font-family="'Inter', sans-serif" font-size="10">Clip C · High-Energy Action Finish</text>
+  </g>
+  <text x="36" y="316" fill="#A5ACA5" font-family="'Inter', sans-serif" font-size="11">Non-generative manual timeline pacing and audio transient alignment</text>
+</svg>

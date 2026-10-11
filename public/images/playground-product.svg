@@ -1,0 +1,15 @@
+<svg width="405" height="720" viewBox="0 0 405 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="405" height="720" fill="#111311"/>
+  <rect x="12" y="12" width="381" height="696" rx="12" fill="#1B1E1B" stroke="#303530"/>
+  <!-- Safe Area Guides -->
+  <rect x="36" y="80" width="333" height="520" rx="8" fill="#151715" stroke="#252A25" stroke-dasharray="4 4"/>
+  <!-- Central Product Silhouette -->
+  <ellipse cx="202" cy="350" rx="90" ry="120" fill="#202420" stroke="#70E2F9" stroke-width="1.5"/>
+  <circle cx="202" cy="350" r="45" fill="#1B1E1B"/>
+  <text x="202" y="355" fill="#70E2F9" font-family="'JetBrains Mono', monospace" font-size="11" text-anchor="middle">360° SPIN</text>
+  <!-- Vertical Reel Overlay UI -->
+  <text x="50" y="110" fill="#F4F3ED" font-family="'Manrope', sans-serif" font-size="14" font-weight="700">9:16 VERTICAL REEL</text>
+  <text x="50" y="130" fill="#A5ACA5" font-family="'Inter', sans-serif" font-size="11">Product Commercial Concept</text>
+  <rect x="50" y="550" width="120" height="24" rx="4" fill="#70E2F9"/>
+  <text x="64" y="566" fill="#111311" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="600">STUDIO LIGHTING</text>
+</svg>
