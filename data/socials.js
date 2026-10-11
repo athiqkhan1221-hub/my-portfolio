@@ -13,6 +13,9 @@ export const contactDetails = {
   status: "Open to Internships & Freelance",
   statusActive: true, // Set to false to hide availability badge
   email: "athiqkhan1221@gmail.com",
+  phone: "+91 9043395299",
+  whatsappNumber: "919043395299",
+  whatsapp: "https://wa.me/919043395299",
   github: "https://github.com/athiqkhan",
   linkedin: "https://www.linkedin.com/in/athiq-khan-2aa177433",
   instagram: "https://www.instagram.com/athiqqqq",

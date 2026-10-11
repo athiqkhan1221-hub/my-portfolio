@@ -10,9 +10,10 @@ import {
   Clock,
   MapPin,
   CheckCircle2,
-  AlertCircle
+  AlertCircle,
+  MessageSquare
 } from "lucide-react";
-import { GithubIcon, LinkedinIcon, InstagramIcon } from "./Icons";
+import { GithubIcon, LinkedinIcon, InstagramIcon, WhatsAppIcon } from "./Icons";
 
 export default function Contact() {
   const [formData, setFormData] = useState({
@@ -51,6 +52,16 @@ export default function Contact() {
     return errs;
   };
 
+  const getWhatsAppUrl = () => {
+    const text =
+      `Hello Athiq,\n\n` +
+      `*Name:* ${formData.name}\n` +
+      `*Email:* ${formData.email}\n` +
+      `*Topic:* ${formData.purpose}\n\n` +
+      `*Message:*\n${formData.message}`;
+    return `https://wa.me/919043395299?text=${encodeURIComponent(text)}`;
+  };
+
   const handleSubmit = (e) => {
     e.preventDefault();
     const validationErrors = validate();
@@ -63,11 +74,14 @@ export default function Contact() {
     setErrors({});
     setIsSubmitting(true);
 
-    // Simulate reliable dispatch & generate direct mailto fallback
+    // Direct dispatch to WhatsApp (9043395299)
+    const targetUrl = getWhatsAppUrl();
+    window.open(targetUrl, "_blank", "noopener,noreferrer");
+
     setTimeout(() => {
       setIsSubmitting(false);
       setIsSubmitted(true);
-    }, 800);
+    }, 600);
   };
 
   const handleOpenEmailClient = () => {
@@ -190,6 +204,22 @@ export default function Contact() {
                     instagram.com/athiqqqq
                   </span>
                 </a>
+
+                {/* WhatsApp */}
+                <a
+                  href="https://wa.me/919043395299"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="p-3 rounded-lg bg-[#111311] border border-[#303530] hover:border-[#C2F970] flex items-center justify-between text-sm transition-colors group"
+                >
+                  <div className="flex items-center gap-3 text-[#F4F3ED] group-hover:text-[#C2F970]">
+                    <WhatsAppIcon className="w-4 h-4 text-[#25D366]" />
+                    <span className="font-heading font-medium">WhatsApp</span>
+                  </div>
+                  <span className="font-mono text-xs text-[#6E756E] group-hover:text-[#A5ACA5]">
+                    +91 90433 95299
+                  </span>
+                </a>
               </div>
             </div>
 
@@ -215,19 +245,29 @@ export default function Contact() {
                     <CheckCircle2 className="w-8 h-8" />
                   </div>
                   <h3 className="font-heading text-2xl font-bold text-[#F4F3ED]">
-                    Message Prepared Successfully!
+                    Sent to WhatsApp!
                   </h3>
                   <p className="font-body text-sm text-[#A5ACA5] max-w-md mx-auto leading-relaxed">
-                    Thank you, <strong className="text-[#F4F3ED]">{formData.name}</strong>. Your message details are ready. You can also open your mail app directly to send this immediately with pre-filled content.
+                    Thank you, <strong className="text-[#F4F3ED]">{formData.name}</strong>. WhatsApp has been opened with your pre-filled message for Athiq (<strong className="text-[#C2F970]">+91 9043395299</strong>).
                   </p>
 
                   <div className="pt-4 flex flex-wrap items-center justify-center gap-3">
+                    <a
+                      href={getWhatsAppUrl()}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="btn-primary text-xs flex items-center gap-2"
+                    >
+                      <WhatsAppIcon className="w-3.5 h-3.5" />
+                      <span>Open WhatsApp Again</span>
+                    </a>
                     <button
                       type="button"
                       onClick={handleOpenEmailClient}
-                      className="btn-primary text-xs"
+                      className="btn-secondary text-xs flex items-center gap-2"
                     >
-                      <span>Send via Default Mail App</span>
+                      <Mail className="w-3.5 h-3.5" />
+                      <span>Send via Email Fallback</span>
                     </button>
                     <button
                       type="button"
@@ -240,7 +280,7 @@ export default function Contact() {
                           message: "",
                         });
                       }}
-                      className="btn-secondary text-xs"
+                      className="btn-ghost text-xs"
                     >
                       Send Another Message
                     </button>
@@ -382,14 +422,15 @@ export default function Contact() {
                   <button
                     type="submit"
                     disabled={isSubmitting}
-                    className="btn-primary w-full py-3.5 text-sm"
+                    className="btn-primary w-full py-3.5 text-sm flex items-center justify-center gap-2"
                   >
                     {isSubmitting ? (
-                      <span>Validating message...</span>
+                      <span>Opening WhatsApp...</span>
                     ) : (
                       <>
-                        <span>Submit Message</span>
-                        <Send className="w-4 h-4" />
+                        <WhatsAppIcon className="w-4 h-4" />
+                        <span>Send Message via WhatsApp</span>
+                        <Send className="w-3.5 h-3.5" />
                       </>
                     )}
                   </button>

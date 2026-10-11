@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { contactDetails, navLinks } from "@/data/socials";
 import { ArrowUp, Mail } from "lucide-react";
-import { GithubIcon, LinkedinIcon, InstagramIcon } from "./Icons";
+import { GithubIcon, LinkedinIcon, InstagramIcon, WhatsAppIcon } from "./Icons";
 
 import { useState, useEffect } from "react";
 
@@ -77,6 +77,15 @@ export default function Footer() {
               aria-label="Instagram"
             >
               <InstagramIcon className="w-4 h-4" />
+            </a>
+            <a
+              href="https://wa.me/919043395299"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="p-2.5 rounded-lg bg-[#1B1E1B] border border-[#303530] text-[#A5ACA5] hover:text-[#C2F970] hover:border-[#C2F970] transition-colors"
+              aria-label="WhatsApp"
+            >
+              <WhatsAppIcon className="w-4 h-4 text-[#25D366]" />
             </a>
             <a
               href={`mailto:${contactDetails.email}`}
