@@ -78,6 +78,8 @@ export const viewport = {
   initialScale: 1,
 };
 
+import AthiqChatbot from "@/components/AthiqChatbot";
+
 export default function RootLayout({ children }) {
   return (
     <html
@@ -86,6 +88,7 @@ export default function RootLayout({ children }) {
     >
       <body className="bg-[#111311] text-[#F4F3ED] antialiased selection:bg-[#C2F970] selection:text-[#111311]">
         {children}
+        <AthiqChatbot />
       </body>
     </html>
   );
