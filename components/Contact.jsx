@@ -171,7 +171,7 @@ export default function Contact() {
                     <span className="font-heading font-medium">LinkedIn</span>
                   </div>
                   <span className="font-mono text-xs text-[#6E756E] group-hover:text-[#A5ACA5]">
-                    linkedin.com/in/athiqkhan
+                    linkedin.com/in/athiq-khan-2aa177433
                   </span>
                 </a>
 
@@ -187,7 +187,7 @@ export default function Contact() {
                     <span className="font-heading font-medium">Instagram</span>
                   </div>
                   <span className="font-mono text-xs text-[#6E756E] group-hover:text-[#A5ACA5]">
-                    instagram.com/athiqkhan
+                    instagram.com/athiqqqq
                   </span>
                 </a>
               </div>
@@ -201,7 +201,7 @@ export default function Contact() {
               </div>
               <div className="flex items-center gap-2">
                 <Clock className="w-4 h-4 text-[#C2F970]" />
-                <span>Response time: Usually within 24–48 hours</span>
+                <span>Response time: Usually 24 hours</span>
               </div>
             </div>
           </div>

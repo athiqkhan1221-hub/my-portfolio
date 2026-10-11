@@ -12,11 +12,11 @@ export const contactDetails = {
   degree: "B.E. in Artificial Intelligence and Machine Learning",
   status: "Open to Internships & Freelance",
   statusActive: true, // Set to false to hide availability badge
-  email: "athiqkhan.dev@gmail.com", // [EDITABLE PLACEHOLDER: Update with your active email]
-  github: "https://github.com/athiqkhan", // [EDITABLE PLACEHOLDER: Update with your GitHub profile]
-  linkedin: "https://linkedin.com/in/athiqkhan", // [EDITABLE PLACEHOLDER: Update with your LinkedIn profile]
-  instagram: "https://instagram.com/athiqkhan", // [EDITABLE PLACEHOLDER: Update with your Instagram profile]
-  resumePath: "/resume.pdf", // Place your resume in public/resume.pdf
+  email: "athiqkhan1221@gmail.com",
+  github: "https://github.com/athiqkhan",
+  linkedin: "https://www.linkedin.com/in/athiq-khan-2aa177433",
+  instagram: "https://www.instagram.com/athiqqqq",
+  resumePath: "/resume.pdf",
 };
 
 export const navLinks = [
